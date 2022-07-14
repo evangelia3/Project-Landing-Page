@@ -1,6 +1,7 @@
 .header {
   background-color: #1F2937;  
   display: flex;
+  justify-content: space-between;
   
   
 }
@@ -10,8 +11,12 @@
     color: #F9FAF8;
     font-weight: bold;
     padding-left: 150px;
-    padding-right: 600px;
     padding-top:15px ;
+}
+
+.link-container {
+    padding: 15px;
+    margin-right: 40px;
 }
 
 body {
@@ -33,7 +38,8 @@ padding-top: 15px;
     background-color: #1F2937;
     display: flex;
     padding: 150px;
-    
+    justify-content: space-around;
+    gap: 30px
    
     
 }
@@ -71,15 +77,14 @@ button {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-right: 250px;
+    width: 500px;
 }
 
 
 
 .img1 {
-    width: 800px;
+    width: 500px;
     height: 300px;
-    margin-right: 100px;
 }
 
 .blue-corners {
@@ -87,6 +92,7 @@ width: 200px;
 height: 200px;
 border: solid #3882F6;
 border-radius: 8px;
+margin-bottom: 8px;
 }
 
 .second {
@@ -118,7 +124,8 @@ gap: 20px;
 .third {
     background-color: #e5e7eb;
     padding: 100px;
-    
+    display: flex;
+    flex-direction: column;
 }
 
 .quote {
@@ -126,15 +133,18 @@ gap: 20px;
     font-style: italic;
     color: #1F2937;
     font-weight: lighter;
-    margin-right: 200px;
-    margin-left: 200px;
+    /* margin-right: 100px;
+    margin-left: 100px; */
+    width: 800px;
+    align-self: center;
 }
 
 .name {
    font-size: 20px;
    font-weight: bold; 
-   margin-left: 800px;
    margin-top: 10px;
+   display: flex;
+   justify-content: flex-end;
 }
 
 .blue-box {
@@ -169,4 +179,8 @@ gap: 20px;
     color: #e5e7eb;
     padding: 30px;
     text-align: center;
+}
+
+.img-subtext{
+    text-align: center
 }
